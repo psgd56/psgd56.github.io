@@ -1,0 +1,16 @@
+<!doctype html><!--<!DOCTYPE html> — 文件類型（doctype）。--> 
+<html><!--<html> 元素，又被視為根元素（root element），包含了所有顯示在這個頁面上的內容。--> 
+  <head><!--<head> 元素，裡面放的是你想涵括的重要資訊，但不會顯示於網頁瀏覽者眼前的。例如，顯示於搜尋結果的關鍵字、
+    頁面說明、CSS、字元實體集...等。--> 
+    <meta charset="utf-8" /><!--<meta charset="utf-8"> — 這個元素指定了你的文件使用 utf-8 這種字元編碼。--> 
+    <title>My test page</title><!--<tititle>元素，呈現於網頁瀏覽者眼前的網頁標題。--> 
+  </head>
+  <body><!--<body> 元素，包含了所有會顯示於網頁瀏覽者眼前的內容。 無論是文字、圖片、影面、互動遊戲...等。--> 
+    
+    <img src="images/html-icon.png" alt="My test image" /><!--資料夾同一層--> 
+    <img src="../up.jpg" alt="My test image" /><!--連接上層用(..)--> 
+    <img src="images/low/down.png" alt="My test image" /><!--連接下層用(/)--> 
+    <!--它是透過圖片來源（src，source）這個屬性，提供了連到圖片檔案的路徑。--> 
+    <!--我們也可以加上 alt（alternative）這個屬性。在網頁瀏覽者無法正確看到圖片時，你希望對他們呈現什麼樣的說明文字。-->
+  </body>
+</html>

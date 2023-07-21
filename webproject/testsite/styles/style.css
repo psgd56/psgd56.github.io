@@ -1,0 +1,63 @@
+p {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+p,
+li,
+h1 {
+  color: red;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #00539f;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+  /*當想要將 HTML 頁面上所有段落元素（paragraph elements）裡的文字全部轉換成紅色，你會在 CSS 裡寫
+  整個架構我們稱為規則集 (rule set)，或是簡稱為規則 (rule) 也可以。（也注意名字裡面的單獨部分）
+
+選擇器（Selector）
+在這個規則的最前頭為 HTML 的元素名。它將決定你 HTML 裡什麼元素將被你接下來的設定影響（在這個範例中,就是 段落元素 p）。
+若要改變欲影響的元素，只要更改選擇器就行了。
+
+宣告（Declaration）
+單一個規則，例如 color: red; 指定了這個元素的呈現樣貌。
+
+屬性 (Properties)
+修改屬性是改變你 HTML 元素的一種方法 . (在這範例中, color 是段落（p）元素的一種屬性.) 在 CSS 中, 
+你可以選擇哪些屬性用來影響 rule.
+
+屬性值 (Property value)
+屬性值 就是位於屬性右邊，在冒號（:）之後，從眾多的可能樣式選出一個給予屬性（範例中就是從眾多的 color 樣式中選出 red）
+
+注意語法其他重要的部分：
+
+每一個規則當中，除了選擇器名稱以外，其他都必須被大括號（{}）給包住.
+在每一個宣告裡面，屬性跟屬性值之間必須用冒號(:) 做區分。
+在每一個規則裡面可以包含有許多宣告，但不同的宣告之間必須使用分號 (;) 來區分。*/
